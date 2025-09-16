@@ -16,9 +16,9 @@ class Hero{
     }
 
     showStats(){
-        console.log("Name:", this.name);
-        console.log("Health:", this.#health);
-        console.log("Attack:", this.attack);
+        console.log("Name:" +this.name);
+        console.log("Health:" +this.#health);
+        console.log("Attack:" +this.attack);
         console.log("-----------------------");
     }
 }
